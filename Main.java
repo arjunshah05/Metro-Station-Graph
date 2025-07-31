@@ -12,6 +12,7 @@ public class Main {
         metro.addConnection("Central Secretariat", "Udyog Bhawan", 2);
         metro.addConnection("Udyog Bhawan", "Lok Kalyan Marg", 3);
 
+        System.out.print("Rajiv Chowk , Kashmere Gate ,Central Secretariat, Civil Lines, Vidhan Sabha ,Udyog Bhawan, Lok Kalyan Marg");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter source station: ");
         String source = scanner.nextLine().trim();
